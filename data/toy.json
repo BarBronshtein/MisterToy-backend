@@ -1,0 +1,50 @@
+[
+  {
+    "_id": "gOIio",
+    "name": "Mister toy",
+    "price": 137,
+    "labels": [
+      "Doll",
+      "Battery Powered",
+      "Baby"
+    ],
+    "createdAt": 1657561995942,
+    "inStock": true
+  },
+  {
+    "_id": "8REKq",
+    "name": "Dragon toy",
+    "price": 17,
+    "labels": [
+      "Doll",
+      "Battery Powered",
+      "Baby"
+    ],
+    "createdAt": 1657561995942,
+    "inStock": true
+  },
+  {
+    "_id": "4oeYS",
+    "name": "Robot",
+    "price": 69,
+    "labels": [
+      "Doll",
+      "Battery Powered",
+      "Baby"
+    ],
+    "createdAt": 1657561995942,
+    "inStock": true
+  },
+  {
+    "_id": "qAjg0",
+    "name": "Dancing Cat",
+    "price": 89,
+    "labels": [
+      "Doll",
+      "Battery Powered",
+      "Baby"
+    ],
+    "createdAt": 1657561995942,
+    "inStock": true
+  }
+]
