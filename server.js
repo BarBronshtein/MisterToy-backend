@@ -1,12 +1,15 @@
 const toyService = require('./services/toy-service');
 const express = require('express');
+const cors = require('cors');
 const app = express();
 const port = 3030;
-app.use(express.static('public'));
+
+// app.use(express.static('public'));
 app.use(express.json());
+app.use(cors());
 
 app.listen(port, () => {
-  console.log(`App listening on port http://localhost:${port}`);
+  console.log(`App listening on port http://localhost:${port}/`);
 });
 
 // List of toys

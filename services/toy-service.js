@@ -7,21 +7,23 @@ module.exports = {
   save,
 };
 
-// { title, creatorId, page } TODO:filter and sort in backend
-function query() {
-  //   const regex = new RegExp(title, 'i');
-  let filteredtoys = toys;
-  //   let filteredtoys = title ? toys.filter(toy => regex.test(toy.title)) : toys;
+function query(filterBy) {
+  return _filter(filterBy);
+}
 
-  //   filteredtoys = creatorId
-  //     ? toys.filter(toy => toy.creator._id === creatorId)
-  //     : filteredtoys;
-
-  //   if (page !== undefined) {
-  //     const startIdx = page * PAGE_SIZE;
-  //     filteredtoys = filteredtoys.slice(startIdx, startIdx + PAGE_SIZE);
-  //   }
-  return Promise.resolve(filteredtoys);
+function _filter({ txt = '', inStock, labels }) {
+  let filteredToys = toys;
+  inStock = JSON.parse(inStock);
+  const regex = new RegExp(txt, 'i');
+  // TODO: make it more efficent
+  if (inStock) filteredToys = filteredToys.filter(toy => toy.inStock);
+  filteredToys = filteredToys.filter(toy => regex.test(toy.name));
+  if (labels?.length) {
+    filteredToys = filteredToys.filter(toy =>
+      toy.labels.some(label => labels.includes(label))
+    );
+  }
+  return Promise.resolve(filteredToys);
 }
 
 function getById(toyId) {
