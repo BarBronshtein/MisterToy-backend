@@ -13,7 +13,7 @@ function query(filterBy) {
 
 function _filter({ txt = '', inStock, labels }) {
   let filteredToys = toys;
-  inStock = JSON.parse(inStock);
+  inStock = inStock === 'true' ? true : false;
   const regex = new RegExp(txt, 'i');
   // TODO: make it more efficent
   if (inStock) filteredToys = filteredToys.filter(toy => toy.inStock);
