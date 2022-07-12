@@ -11,8 +11,7 @@ app.use(cors());
 app.listen(port, () => {
   console.log(`App listening on port http://localhost:${port}/`);
 });
-const MAP_KEY = 'AIzaSyAl-v0FWCCcT0o6UrjDE17w4NIVtAa9AAI';
-// const MAP_KEY = process.env.MAP_KEY
+const MAP_KEY = process.env.MAP_KEY;
 // Get api key
 app.get('/api/map', (req, res) => {
   res.send(MAP_KEY);
