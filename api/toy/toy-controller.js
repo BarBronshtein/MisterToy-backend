@@ -1,5 +1,5 @@
-const toyService = require('./toy.service.js');
-const logger = require('../../services/logger.service');
+const toyService = require('./toy-service.js');
+const logger = require('../../services/logger-service');
 
 // GET LIST
 async function getToys(req, res) {
