@@ -3,15 +3,19 @@ const express = require('express');
 const cors = require('cors');
 const app = express();
 const port = process.env.PORT || 3030;
+const MAP_KEY =
+  process.env === 'production'
+    ? process.env.MAP_KEY
+    : 'AIzaSyAl-v0FWCCcT0o6UrjDE17w4NIVtAa9AAI';
 
-app.use(express.static('public'));
+// app.use(express.static('public'));
 app.use(express.json());
 app.use(cors());
 
 app.listen(port, () => {
   console.log(`App listening on port http://localhost:${port}/`);
 });
-const MAP_KEY = process.env.MAP_KEY;
+
 // Get api key
 app.get('/api/map', (req, res) => {
   res.send(MAP_KEY);
