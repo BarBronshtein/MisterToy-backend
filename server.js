@@ -1,73 +1,57 @@
-const toyService = require('./services/toy-service');
 const express = require('express');
+const cookieParser = require('cookie-parser');
 const cors = require('cors');
-const app = express();
-const port = process.env.PORT || 3030;
+const path = require('path');
+
 const MAP_KEY =
   process.env === 'production'
     ? process.env.MAP_KEY
     : 'AIzaSyAl-v0FWCCcT0o6UrjDE17w4NIVtAa9AAI';
 
-// app.use(express.static('public'));
+const app = express();
+const http = require('http').createServer(app);
+
+// Express App Config
+app.use(cookieParser());
 app.use(express.json());
-app.use(cors());
+app.use(express.static('public'));
 
-app.listen(port, () => {
-  console.log(`App listening on port http://localhost:${port}/`);
+if (process.env.NODE_ENV === 'production') {
+  // Express serve static files on production environment
+  app.use(express.static(path.resolve(__dirname, 'public')));
+} else {
+  // Configuring CORS
+  const corsOptions = {
+    // Make sure origin contains the url your frontend is running on
+    origin: [
+      'http://127.0.0.1:8080',
+      'http://localhost:8080',
+      'http://127.0.0.1:3000',
+      'http://localhost:3000',
+    ],
+    credentials: true,
+  };
+  app.use(cors(corsOptions));
+}
+
+const authRoutes = require('./auth/auth.routes');
+const userRoutes = require('./api/user/user.routes');
+const carRoutes = require('./api/car/car.routes');
+
+// routes
+app.use('/api/auth', authRoutes);
+app.use('/api/user', userRoutes);
+app.use('/api/car', carRoutes);
+
+// Make every server-side-route to match the index.html
+// so when requesting http://localhost:3030/index.html/car/123 it will still respond with
+// our SPA (single page app) (the index.html file) and allow vue-router to take it from there
+app.get('/**', (req, res) => {
+  res.sendFile(path.join(__dirname, 'public', 'index.html'));
 });
 
-// Get api key
-app.get('/api/map', (req, res) => {
-  res.send(MAP_KEY);
-});
-
-// List of toys
-app.get('/api/toy', (req, res) => {
-  const filterBy = req.query;
-  toyService
-    .query(filterBy)
-    .then(toys => res.send(toys))
-    .catch(err => {
-      console.log(err);
-      return res.status(500).send('Cannot get toys');
-    });
-});
-// Update toy
-app.put('/api/toy/:toyId', (req, res) => {
-  const toy = req.body;
-  toyService
-    .save(toy)
-    .then(savedToy => res.send(savedToy))
-    .catch(err => {
-      console.log(err);
-      res.status(500).send('Cannot update toy');
-    });
-});
-
-// Create toy
-app.post('/api/toy', (req, res) => {
-  const toy = req.body;
-  toyService
-    .save(toy)
-    .then(savedToy => res.send(savedToy))
-    .catch(() => res.status(500).send('Cannot save toy'));
-});
-// Read toy
-app.get('/api/toy/:toyId', (req, res) => {
-  const { toyId } = req.params;
-
-  toyService
-    .getById(toyId)
-    .then(toy => res.send(toy))
-    .catch(() => res.status(500).send('Cannot get toy'));
-});
-
-// Delete toy
-app.delete('/api/toy/:toyId', (req, res) => {
-  const { toyId } = req.params;
-
-  toyService
-    .remove(toyId)
-    .then(() => res.send('Removed'))
-    .catch(() => res.status(500).send('Cannot remove toy'));
+const logger = require('./services/logger-service');
+const port = process.env.PORT || 3030;
+http.listen(port, () => {
+  logger.info('Server is running on port: ' + port);
 });
