@@ -1,5 +1,5 @@
 const logger = require('../services/logger-service');
-const authService = require('../auth/auth-service');
+const authService = require('../api/auth/auth-service');
 
 async function requireAuth(req, res, next) {
   if (!req?.cookies?.loginToken) {

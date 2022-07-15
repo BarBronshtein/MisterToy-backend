@@ -4,10 +4,19 @@ const ObjectId = require('mongodb').ObjectId;
 
 async function query(filterBy) {
   try {
-    const criteria = _buildCriteria(filterBy);
-
+    let toys;
+    const sortBy = JSON.parse(filterBy.sortBy);
+    const criteria = _buildCriteria(filterBy, sortBy);
     const collection = await dbService.getCollection('toy');
-    const toys = await collection.find(criteria).toArray();
+    if (sortBy.status) {
+      toys = await collection
+        .find(criteria)
+        .sort({ [sortBy.status]: sortBy.state })
+        .toArray()
+        .limit(4);
+    } else {
+      toys = await collection.find(criteria).toArray().limit(4);
+    }
     return toys;
   } catch (err) {
     logger.error('cannot find toys', err);
@@ -39,6 +48,8 @@ async function remove(toyId) {
 
 async function add(toy) {
   try {
+    // Todo remove _id in the front
+    delete toy._id;
     const collection = await dbService.getCollection('toy');
     const { insertedId } = await collection.insertOne(toy);
     // Maybe toy id will return an object and not a string id
@@ -55,6 +66,7 @@ async function update(toy) {
     delete toy._id;
     const collection = await dbService.getCollection('toy');
     await collection.updateOne({ _id: id }, { $set: { ...toy } });
+    toy._id = id;
     return toy;
   } catch (err) {
     logger.error(`cannot update toy ${toyId}`, err);
@@ -70,10 +82,17 @@ module.exports = {
   update,
 };
 
-function _buildCriteria(filterBy = { minPrice: 0 }) {
+function _buildCriteria(filterBy) {
   const criteria = {};
-  if (filterBy.minPrice) {
-    criteria.price = { $gte: filterBy.minPrice };
+  if (filterBy.txt) {
+    criteria.name = { $regex: filterBy.txt, $options: 'i' };
   }
+  if (filterBy.inStock) {
+    criteria.inStock = { $eq: true };
+  }
+  if (filterBy.labels?.length > 0) {
+    criteria.labels = { $all: filterBy.labels };
+  }
+
   return criteria;
 }

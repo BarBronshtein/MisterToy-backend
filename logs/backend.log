@@ -1,0 +1,438 @@
+14/07/2022, 20:34:40 - INFO - Server is running on port: 3030
+14/07/2022, 20:35:04 - INFO - Req was made
+14/07/2022, 20:35:04 - DEBUG - Getting Toys
+14/07/2022, 20:35:04 - ERROR - Cannot Connect to DB | {}
+14/07/2022, 20:35:04 - ERROR - Faile to get Mongo collection | {}
+14/07/2022, 20:35:04 - ERROR - cannot find toys | {}
+14/07/2022, 20:35:04 - ERROR - Failed to get toys | {}
+14/07/2022, 20:48:59 - INFO - Server is running on port: 3030
+14/07/2022, 21:04:16 - INFO - Req was made
+14/07/2022, 21:04:16 - DEBUG - Getting Toys
+14/07/2022, 21:04:16 - ERROR - Cannot Connect to DB | {}
+14/07/2022, 21:04:16 - ERROR - Faile to get Mongo collection | {}
+14/07/2022, 21:04:16 - ERROR - cannot find toys | {}
+14/07/2022, 21:04:16 - ERROR - Failed to get toys | {}
+14/07/2022, 21:05:47 - INFO - Server is running on port: 3030
+14/07/2022, 21:05:47 - INFO - Req was made
+14/07/2022, 21:05:47 - DEBUG - Getting Toys
+14/07/2022, 21:05:47 - ERROR - Cannot Connect to DB | {}
+14/07/2022, 21:05:47 - ERROR - Faile to get Mongo collection | {}
+14/07/2022, 21:05:47 - ERROR - cannot find toys | {}
+14/07/2022, 21:05:47 - ERROR - Failed to get toys | {}
+14/07/2022, 21:06:27 - INFO - Server is running on port: 3030
+14/07/2022, 21:14:46 - INFO - Server is running on port: 3030
+14/07/2022, 21:15:02 - INFO - Server is running on port: 3030
+14/07/2022, 21:15:07 - INFO - Req was made
+14/07/2022, 21:15:07 - DEBUG - Getting Toys
+14/07/2022, 21:15:22 - INFO - Req was made
+14/07/2022, 21:15:22 - DEBUG - Getting Toys
+14/07/2022, 21:18:02 - INFO - Req was made
+14/07/2022, 21:18:02 - DEBUG - Getting Toys
+14/07/2022, 21:22:10 - INFO - Req was made
+14/07/2022, 21:22:10 - DEBUG - Getting Toys
+14/07/2022, 21:24:07 - INFO - Req was made
+14/07/2022, 21:24:07 - DEBUG - Getting Toys
+14/07/2022, 21:28:01 - INFO - Req was made
+14/07/2022, 21:28:01 - DEBUG - Getting Toys
+14/07/2022, 21:28:18 - INFO - Req was made
+14/07/2022, 21:28:18 - DEBUG - Getting Toys
+14/07/2022, 21:29:50 - INFO - Req was made
+14/07/2022, 21:29:50 - DEBUG - Getting Toys
+14/07/2022, 21:30:55 - INFO - Req was made
+14/07/2022, 21:30:55 - DEBUG - Getting Toys
+14/07/2022, 21:31:57 - INFO - Server is running on port: 3030
+14/07/2022, 21:31:57 - INFO - Req was made
+14/07/2022, 21:31:57 - DEBUG - Getting Toys
+14/07/2022, 21:33:20 - INFO - Req was made
+14/07/2022, 21:33:20 - DEBUG - Getting Toys
+14/07/2022, 21:33:58 - INFO - Server is running on port: 3030
+14/07/2022, 21:33:58 - INFO - Req was made
+14/07/2022, 21:33:58 - DEBUG - Getting Toys
+14/07/2022, 21:34:36 - INFO - Server is running on port: 3030
+14/07/2022, 21:34:55 - INFO - Server is running on port: 3030
+14/07/2022, 21:34:56 - INFO - Req was made
+14/07/2022, 21:34:56 - DEBUG - Getting Toys
+14/07/2022, 21:35:09 - INFO - Server is running on port: 3030
+14/07/2022, 21:35:09 - INFO - Req was made
+14/07/2022, 21:35:09 - DEBUG - Getting Toys
+14/07/2022, 21:39:50 - INFO - Server is running on port: 3030
+14/07/2022, 21:40:37 - INFO - Req was made
+14/07/2022, 21:40:37 - DEBUG - Getting Toys
+14/07/2022, 21:41:58 - INFO - Server is running on port: 3030
+14/07/2022, 21:42:00 - INFO - Req was made
+14/07/2022, 21:42:00 - DEBUG - Getting Toys
+14/07/2022, 21:42:12 - ERROR - cannot insert toy | {"index":0,"code":11000,"keyPattern":{"_id":1},"keyValue":{"_id":""}}
+14/07/2022, 21:42:12 - ERROR - Failed to add toy | {"index":0,"code":11000,"keyPattern":{"_id":1},"keyValue":{"_id":""}}
+14/07/2022, 21:43:55 - INFO - Req was made
+14/07/2022, 21:43:55 - DEBUG - Getting Toys
+14/07/2022, 21:44:09 - ERROR - cannot insert toy | {"index":0,"code":11000,"keyPattern":{"_id":1},"keyValue":{"_id":""}}
+14/07/2022, 21:44:09 - ERROR - Failed to add toy | {"index":0,"code":11000,"keyPattern":{"_id":1},"keyValue":{"_id":""}}
+14/07/2022, 21:44:43 - INFO - Server is running on port: 3030
+14/07/2022, 21:44:46 - ERROR - cannot insert toy | {"index":0,"code":11000,"keyPattern":{"_id":1},"keyValue":{"_id":""}}
+14/07/2022, 21:44:46 - ERROR - Failed to add toy | {"index":0,"code":11000,"keyPattern":{"_id":1},"keyValue":{"_id":""}}
+14/07/2022, 21:45:43 - INFO - Server is running on port: 3030
+14/07/2022, 21:45:53 - INFO - Server is running on port: 3030
+14/07/2022, 21:45:54 - INFO - Req was made
+14/07/2022, 21:45:54 - DEBUG - Getting Toys
+14/07/2022, 21:48:47 - INFO - Server is running on port: 3030
+14/07/2022, 22:06:29 - INFO - Req was made
+14/07/2022, 22:06:29 - DEBUG - Getting Toys
+14/07/2022, 22:07:10 - INFO - Req was made
+14/07/2022, 22:07:10 - DEBUG - Getting Toys
+14/07/2022, 22:07:37 - INFO - Req was made
+14/07/2022, 22:07:37 - DEBUG - Getting Toys
+14/07/2022, 22:08:44 - INFO - Req was made
+14/07/2022, 22:08:44 - DEBUG - Getting Toys
+14/07/2022, 22:09:29 - INFO - Req was made
+14/07/2022, 22:09:29 - DEBUG - Getting Toys
+14/07/2022, 22:10:25 - INFO - Req was made
+14/07/2022, 22:10:25 - DEBUG - Getting Toys
+14/07/2022, 22:10:32 - INFO - Req was made
+14/07/2022, 22:10:32 - DEBUG - Getting Toys
+14/07/2022, 22:11:00 - INFO - Req was made
+14/07/2022, 22:11:00 - DEBUG - Getting Toys
+14/07/2022, 22:12:07 - INFO - Req was made
+14/07/2022, 22:12:07 - DEBUG - Getting Toys
+14/07/2022, 22:13:27 - INFO - Req was made
+14/07/2022, 22:13:27 - DEBUG - Getting Toys
+14/07/2022, 22:14:31 - INFO - Req was made
+14/07/2022, 22:14:31 - DEBUG - Getting Toys
+14/07/2022, 22:16:13 - INFO - Req was made
+14/07/2022, 22:16:13 - DEBUG - Getting Toys
+15/07/2022, 14:08:21 - INFO - Server is running on port: 3030
+15/07/2022, 14:08:34 - INFO - Req was made
+15/07/2022, 14:08:34 - DEBUG - Getting Toys
+15/07/2022, 14:09:35 - INFO - Req was made
+15/07/2022, 14:09:35 - DEBUG - Getting Toys
+15/07/2022, 14:09:45 - INFO - Req was made
+15/07/2022, 14:09:45 - DEBUG - Getting Toys
+15/07/2022, 14:10:13 - INFO - Req was made
+15/07/2022, 14:10:13 - DEBUG - Getting Toys
+15/07/2022, 14:10:15 - INFO - Req was made
+15/07/2022, 14:10:15 - DEBUG - Getting Toys
+15/07/2022, 14:10:46 - INFO - Req was made
+15/07/2022, 14:10:46 - DEBUG - Getting Toys
+15/07/2022, 14:11:03 - INFO - Req was made
+15/07/2022, 14:11:03 - DEBUG - Getting Toys
+15/07/2022, 14:11:04 - INFO - Req was made
+15/07/2022, 14:11:04 - DEBUG - Getting Toys
+15/07/2022, 14:11:07 - INFO - Req was made
+15/07/2022, 14:11:07 - DEBUG - Getting Toys
+15/07/2022, 14:11:08 - INFO - Req was made
+15/07/2022, 14:11:08 - DEBUG - Getting Toys
+15/07/2022, 14:11:10 - INFO - Req was made
+15/07/2022, 14:11:10 - DEBUG - Getting Toys
+15/07/2022, 14:11:41 - INFO - Server is running on port: 3030
+15/07/2022, 14:11:42 - INFO - Req was made
+15/07/2022, 14:11:42 - DEBUG - Getting Toys
+15/07/2022, 14:11:53 - INFO - Req was made
+15/07/2022, 14:11:53 - DEBUG - Getting Toys
+15/07/2022, 14:11:58 - INFO - Req was made
+15/07/2022, 14:11:58 - DEBUG - Getting Toys
+15/07/2022, 14:13:12 - INFO - Server is running on port: 3030
+15/07/2022, 14:13:35 - INFO - Server is running on port: 3030
+15/07/2022, 14:13:38 - INFO - Req was made
+15/07/2022, 14:13:38 - DEBUG - Getting Toys
+15/07/2022, 14:13:53 - INFO - Server is running on port: 3030
+15/07/2022, 14:13:53 - INFO - Req was made
+15/07/2022, 14:13:53 - DEBUG - Getting Toys
+15/07/2022, 14:14:12 - INFO - Server is running on port: 3030
+15/07/2022, 14:14:12 - INFO - Req was made
+15/07/2022, 14:14:12 - DEBUG - Getting Toys
+15/07/2022, 14:14:15 - INFO - Req was made
+15/07/2022, 14:14:15 - DEBUG - Getting Toys
+15/07/2022, 14:14:27 - INFO - Server is running on port: 3030
+15/07/2022, 14:14:30 - INFO - Req was made
+15/07/2022, 14:14:30 - DEBUG - Getting Toys
+15/07/2022, 14:15:42 - INFO - Req was made
+15/07/2022, 14:15:42 - DEBUG - Getting Toys
+15/07/2022, 14:16:07 - INFO - Req was made
+15/07/2022, 14:16:07 - DEBUG - Getting Toys
+15/07/2022, 14:16:10 - INFO - Req was made
+15/07/2022, 14:16:10 - DEBUG - Getting Toys
+15/07/2022, 14:16:11 - INFO - Req was made
+15/07/2022, 14:16:11 - DEBUG - Getting Toys
+15/07/2022, 14:16:25 - INFO - Req was made
+15/07/2022, 14:16:25 - DEBUG - Getting Toys
+15/07/2022, 14:16:28 - INFO - Req was made
+15/07/2022, 14:16:28 - DEBUG - Getting Toys
+15/07/2022, 14:17:12 - INFO - Req was made
+15/07/2022, 14:17:12 - DEBUG - Getting Toys
+15/07/2022, 14:17:18 - INFO - Req was made
+15/07/2022, 14:17:18 - DEBUG - Getting Toys
+15/07/2022, 14:19:03 - INFO - Req was made
+15/07/2022, 14:19:03 - DEBUG - Getting Toys
+15/07/2022, 14:20:12 - INFO - Req was made
+15/07/2022, 14:20:12 - DEBUG - Getting Toys
+15/07/2022, 14:24:02 - INFO - Req was made
+15/07/2022, 14:24:02 - DEBUG - Getting Toys
+15/07/2022, 14:24:46 - INFO - Req was made
+15/07/2022, 14:24:46 - DEBUG - Getting Toys
+15/07/2022, 14:27:58 - INFO - Req was made
+15/07/2022, 14:27:58 - DEBUG - Getting Toys
+15/07/2022, 14:28:53 - INFO - Req was made
+15/07/2022, 14:28:53 - DEBUG - Getting Toys
+15/07/2022, 14:30:13 - INFO - Req was made
+15/07/2022, 14:30:13 - DEBUG - Getting Toys
+15/07/2022, 14:30:18 - INFO - Req was made
+15/07/2022, 14:30:18 - DEBUG - Getting Toys
+15/07/2022, 14:30:22 - INFO - Req was made
+15/07/2022, 14:30:22 - DEBUG - Getting Toys
+15/07/2022, 14:31:23 - INFO - Req was made
+15/07/2022, 14:31:23 - DEBUG - Getting Toys
+15/07/2022, 14:31:41 - INFO - Req was made
+15/07/2022, 14:31:41 - DEBUG - Getting Toys
+15/07/2022, 14:32:01 - INFO - Req was made
+15/07/2022, 14:32:01 - DEBUG - Getting Toys
+15/07/2022, 14:32:18 - INFO - Req was made
+15/07/2022, 14:32:18 - DEBUG - Getting Toys
+15/07/2022, 14:32:30 - INFO - Req was made
+15/07/2022, 14:32:30 - DEBUG - Getting Toys
+15/07/2022, 14:33:06 - INFO - Req was made
+15/07/2022, 14:33:06 - DEBUG - Getting Toys
+15/07/2022, 14:33:44 - INFO - Server is running on port: 3030
+15/07/2022, 14:33:58 - INFO - Server is running on port: 3030
+15/07/2022, 14:33:59 - INFO - Req was made
+15/07/2022, 14:33:59 - DEBUG - Getting Toys
+15/07/2022, 14:34:21 - INFO - Server is running on port: 3030
+15/07/2022, 14:34:22 - INFO - Req was made
+15/07/2022, 14:34:22 - DEBUG - Getting Toys
+15/07/2022, 14:34:43 - INFO - Server is running on port: 3030
+15/07/2022, 14:34:46 - INFO - Server is running on port: 3030
+15/07/2022, 14:34:48 - INFO - Req was made
+15/07/2022, 14:34:48 - DEBUG - Getting Toys
+15/07/2022, 14:34:50 - INFO - Req was made
+15/07/2022, 14:34:50 - DEBUG - Getting Toys
+15/07/2022, 14:34:51 - INFO - Req was made
+15/07/2022, 14:34:51 - DEBUG - Getting Toys
+15/07/2022, 14:34:52 - INFO - Req was made
+15/07/2022, 14:34:52 - DEBUG - Getting Toys
+15/07/2022, 14:35:06 - INFO - Req was made
+15/07/2022, 14:35:06 - DEBUG - Getting Toys
+15/07/2022, 14:35:07 - INFO - Req was made
+15/07/2022, 14:35:07 - DEBUG - Getting Toys
+15/07/2022, 14:35:09 - INFO - Req was made
+15/07/2022, 14:35:09 - DEBUG - Getting Toys
+15/07/2022, 14:35:11 - INFO - Req was made
+15/07/2022, 14:35:11 - DEBUG - Getting Toys
+15/07/2022, 14:35:14 - INFO - Req was made
+15/07/2022, 14:35:14 - DEBUG - Getting Toys
+15/07/2022, 14:35:16 - INFO - Req was made
+15/07/2022, 14:35:16 - DEBUG - Getting Toys
+15/07/2022, 14:35:20 - INFO - Req was made
+15/07/2022, 14:35:20 - DEBUG - Getting Toys
+15/07/2022, 14:35:21 - INFO - Req was made
+15/07/2022, 14:35:21 - DEBUG - Getting Toys
+15/07/2022, 14:35:22 - INFO - Req was made
+15/07/2022, 14:35:22 - DEBUG - Getting Toys
+15/07/2022, 14:35:25 - INFO - Req was made
+15/07/2022, 14:35:25 - DEBUG - Getting Toys
+15/07/2022, 14:35:26 - INFO - Req was made
+15/07/2022, 14:35:26 - DEBUG - Getting Toys
+15/07/2022, 14:35:27 - INFO - Req was made
+15/07/2022, 14:35:27 - DEBUG - Getting Toys
+15/07/2022, 14:35:28 - INFO - Req was made
+15/07/2022, 14:35:28 - DEBUG - Getting Toys
+15/07/2022, 14:35:44 - INFO - Req was made
+15/07/2022, 14:35:44 - DEBUG - Getting Toys
+15/07/2022, 14:36:02 - INFO - Req was made
+15/07/2022, 14:36:02 - DEBUG - Getting Toys
+15/07/2022, 14:36:10 - INFO - Req was made
+15/07/2022, 14:36:10 - DEBUG - Getting Toys
+15/07/2022, 14:36:59 - INFO - Req was made
+15/07/2022, 14:36:59 - DEBUG - Getting Toys
+15/07/2022, 14:36:59 - INFO - Req was made
+15/07/2022, 14:36:59 - DEBUG - Getting Toys
+15/07/2022, 14:37:04 - INFO - Req was made
+15/07/2022, 14:37:04 - DEBUG - Getting Toys
+15/07/2022, 14:37:06 - INFO - Req was made
+15/07/2022, 14:37:06 - DEBUG - Getting Toys
+15/07/2022, 14:37:08 - INFO - Req was made
+15/07/2022, 14:37:08 - DEBUG - Getting Toys
+15/07/2022, 14:37:12 - INFO - Req was made
+15/07/2022, 14:37:12 - DEBUG - Getting Toys
+15/07/2022, 14:37:16 - INFO - Req was made
+15/07/2022, 14:37:16 - DEBUG - Getting Toys
+15/07/2022, 14:50:54 - INFO - Req was made
+15/07/2022, 14:50:54 - DEBUG - Getting Toys
+15/07/2022, 14:52:42 - INFO - Req was made
+15/07/2022, 14:52:42 - DEBUG - Getting Toys
+15/07/2022, 14:53:32 - INFO - Req was made
+15/07/2022, 14:53:32 - DEBUG - Getting Toys
+15/07/2022, 14:54:40 - INFO - Req was made
+15/07/2022, 14:54:40 - DEBUG - Getting Toys
+15/07/2022, 14:55:00 - INFO - Req was made
+15/07/2022, 14:55:00 - DEBUG - Getting Toys
+15/07/2022, 14:55:31 - INFO - Req was made
+15/07/2022, 14:55:31 - DEBUG - Getting Toys
+15/07/2022, 14:56:07 - INFO - Req was made
+15/07/2022, 14:56:07 - DEBUG - Getting Toys
+15/07/2022, 14:56:20 - INFO - Req was made
+15/07/2022, 14:56:20 - DEBUG - Getting Toys
+15/07/2022, 14:56:34 - INFO - Req was made
+15/07/2022, 14:56:34 - DEBUG - Getting Toys
+15/07/2022, 14:57:12 - INFO - Req was made
+15/07/2022, 14:57:12 - DEBUG - Getting Toys
+15/07/2022, 14:57:14 - INFO - Req was made
+15/07/2022, 14:57:14 - DEBUG - Getting Toys
+15/07/2022, 14:57:17 - INFO - Req was made
+15/07/2022, 14:57:17 - DEBUG - Getting Toys
+15/07/2022, 14:57:21 - INFO - Req was made
+15/07/2022, 14:57:21 - DEBUG - Getting Toys
+15/07/2022, 15:15:45 - INFO - Req was made
+15/07/2022, 15:15:45 - DEBUG - Getting Toys
+15/07/2022, 15:16:40 - INFO - Req was made
+15/07/2022, 15:16:40 - DEBUG - Getting Toys
+15/07/2022, 15:16:42 - INFO - Req was made
+15/07/2022, 15:16:42 - DEBUG - Getting Toys
+15/07/2022, 15:16:53 - INFO - Req was made
+15/07/2022, 15:16:53 - DEBUG - Getting Toys
+15/07/2022, 15:16:54 - INFO - Req was made
+15/07/2022, 15:16:54 - DEBUG - Getting Toys
+15/07/2022, 15:36:10 - INFO - Req was made
+15/07/2022, 15:36:10 - DEBUG - Getting Toys
+15/07/2022, 15:38:18 - INFO - Req was made
+15/07/2022, 15:38:18 - DEBUG - Getting Toys
+15/07/2022, 15:39:08 - INFO - Req was made
+15/07/2022, 15:39:08 - DEBUG - Getting Toys
+15/07/2022, 15:40:04 - INFO - Req was made
+15/07/2022, 15:40:04 - DEBUG - Getting Toys
+15/07/2022, 15:41:17 - INFO - Req was made
+15/07/2022, 15:41:17 - DEBUG - Getting Toys
+15/07/2022, 15:41:24 - INFO - Req was made
+15/07/2022, 15:41:24 - DEBUG - Getting Toys
+15/07/2022, 15:42:47 - INFO - Req was made
+15/07/2022, 15:42:47 - DEBUG - Getting Toys
+15/07/2022, 15:45:29 - INFO - Req was made
+15/07/2022, 15:45:29 - DEBUG - Getting Toys
+15/07/2022, 15:49:44 - INFO - Req was made
+15/07/2022, 15:49:44 - DEBUG - Getting Toys
+15/07/2022, 15:50:23 - INFO - Req was made
+15/07/2022, 15:50:23 - DEBUG - Getting Toys
+15/07/2022, 15:50:30 - INFO - Req was made
+15/07/2022, 15:50:30 - DEBUG - Getting Toys
+15/07/2022, 15:50:39 - INFO - Req was made
+15/07/2022, 15:50:39 - DEBUG - Getting Toys
+15/07/2022, 15:51:01 - INFO - Req was made
+15/07/2022, 15:51:01 - DEBUG - Getting Toys
+15/07/2022, 15:51:20 - INFO - Server is running on port: 3030
+15/07/2022, 15:51:22 - INFO - Req was made
+15/07/2022, 15:51:22 - DEBUG - Getting Toys
+15/07/2022, 15:51:28 - INFO - Server is running on port: 3030
+15/07/2022, 15:51:33 - INFO - Req was made
+15/07/2022, 15:51:33 - DEBUG - Getting Toys
+15/07/2022, 15:51:34 - INFO - Req was made
+15/07/2022, 15:51:34 - DEBUG - Getting Toys
+15/07/2022, 15:52:07 - INFO - Server is running on port: 3030
+15/07/2022, 15:52:08 - INFO - Req was made
+15/07/2022, 15:52:08 - DEBUG - Getting Toys
+15/07/2022, 15:52:34 - INFO - Req was made
+15/07/2022, 15:52:34 - DEBUG - Getting Toys
+15/07/2022, 15:52:42 - INFO - Req was made
+15/07/2022, 15:52:42 - DEBUG - Getting Toys
+15/07/2022, 15:53:24 - INFO - Req was made
+15/07/2022, 15:53:24 - DEBUG - Getting Toys
+15/07/2022, 15:53:58 - INFO - Req was made
+15/07/2022, 15:53:58 - DEBUG - Getting Toys
+15/07/2022, 16:01:24 - INFO - Server is running on port: 3030
+15/07/2022, 16:11:16 - INFO - Server is running on port: 3030
+15/07/2022, 16:47:13 - INFO - Server is running on port: 3030
+15/07/2022, 16:47:27 - INFO - Server is running on port: 3030
+15/07/2022, 16:47:30 - INFO - Req was made
+15/07/2022, 16:47:30 - DEBUG - Getting Toys
+15/07/2022, 16:47:30 - ERROR - cannot find toys | {}
+15/07/2022, 16:47:30 - ERROR - Failed to get toys | {}
+15/07/2022, 16:48:12 - INFO - Server is running on port: 3030
+15/07/2022, 16:48:13 - INFO - Req was made
+15/07/2022, 16:48:13 - DEBUG - Getting Toys
+15/07/2022, 16:48:45 - INFO - Server is running on port: 3030
+15/07/2022, 16:48:47 - INFO - Req was made
+15/07/2022, 16:48:47 - DEBUG - Getting Toys
+15/07/2022, 16:49:06 - INFO - Server is running on port: 3030
+15/07/2022, 16:49:32 - INFO - Server is running on port: 3030
+15/07/2022, 16:49:35 - INFO - Req was made
+15/07/2022, 16:49:35 - DEBUG - Getting Toys
+15/07/2022, 16:49:42 - INFO - Server is running on port: 3030
+15/07/2022, 16:49:43 - INFO - Req was made
+15/07/2022, 16:49:43 - DEBUG - Getting Toys
+15/07/2022, 16:51:12 - INFO - Server is running on port: 3030
+15/07/2022, 16:51:15 - INFO - Req was made
+15/07/2022, 16:51:15 - DEBUG - Getting Toys
+15/07/2022, 16:51:16 - ERROR - cannot find toys | {"ok":0,"code":40352,"codeName":"Location40352"}
+15/07/2022, 16:51:16 - ERROR - Failed to get toys | {"ok":0,"code":40352,"codeName":"Location40352"}
+15/07/2022, 16:51:32 - INFO - Server is running on port: 3030
+15/07/2022, 16:51:33 - INFO - Req was made
+15/07/2022, 16:51:33 - DEBUG - Getting Toys
+15/07/2022, 16:51:34 - ERROR - cannot find toys | {"ok":0,"code":40352,"codeName":"Location40352"}
+15/07/2022, 16:51:34 - ERROR - Failed to get toys | {"ok":0,"code":40352,"codeName":"Location40352"}
+15/07/2022, 16:51:51 - INFO - Server is running on port: 3030
+15/07/2022, 16:51:52 - INFO - Req was made
+15/07/2022, 16:51:52 - DEBUG - Getting Toys
+15/07/2022, 16:51:52 - ERROR - cannot find toys | {"ok":0,"code":40352,"codeName":"Location40352"}
+15/07/2022, 16:51:52 - ERROR - Failed to get toys | {"ok":0,"code":40352,"codeName":"Location40352"}
+15/07/2022, 16:52:22 - INFO - Server is running on port: 3030
+15/07/2022, 16:52:57 - INFO - Server is running on port: 3030
+15/07/2022, 16:52:58 - INFO - Req was made
+15/07/2022, 16:52:58 - DEBUG - Getting Toys
+15/07/2022, 16:52:58 - ERROR - cannot find toys | {}
+15/07/2022, 16:52:58 - ERROR - Failed to get toys | {}
+15/07/2022, 16:53:07 - INFO - Server is running on port: 3030
+15/07/2022, 16:53:08 - INFO - Req was made
+15/07/2022, 16:53:08 - DEBUG - Getting Toys
+15/07/2022, 16:53:08 - ERROR - cannot find toys | {}
+15/07/2022, 16:53:08 - ERROR - Failed to get toys | {}
+15/07/2022, 16:53:59 - INFO - Server is running on port: 3030
+15/07/2022, 16:54:38 - INFO - Server is running on port: 3030
+15/07/2022, 16:54:41 - INFO - Req was made
+15/07/2022, 16:54:41 - DEBUG - Getting Toys
+15/07/2022, 16:54:41 - ERROR - cannot find toys | {"ok":0,"code":40352,"codeName":"Location40352"}
+15/07/2022, 16:54:41 - ERROR - Failed to get toys | {"ok":0,"code":40352,"codeName":"Location40352"}
+15/07/2022, 16:55:12 - INFO - Server is running on port: 3030
+15/07/2022, 16:55:12 - INFO - Req was made
+15/07/2022, 16:55:12 - DEBUG - Getting Toys
+15/07/2022, 16:55:12 - ERROR - cannot find toys | {}
+15/07/2022, 16:55:12 - ERROR - Failed to get toys | {}
+15/07/2022, 16:55:20 - INFO - Server is running on port: 3030
+15/07/2022, 16:57:40 - INFO - Server is running on port: 3030
+15/07/2022, 16:57:47 - INFO - Req was made
+15/07/2022, 16:57:47 - DEBUG - Getting Toys
+15/07/2022, 16:57:49 - INFO - Req was made
+15/07/2022, 16:57:49 - DEBUG - Getting Toys
+15/07/2022, 16:57:49 - ERROR - cannot find toys | {"ok":0,"code":2,"codeName":"BadValue"}
+15/07/2022, 16:57:49 - ERROR - Failed to get toys | {"ok":0,"code":2,"codeName":"BadValue"}
+15/07/2022, 16:58:03 - INFO - Req was made
+15/07/2022, 16:58:03 - DEBUG - Getting Toys
+15/07/2022, 16:58:03 - ERROR - cannot find toys | {"ok":0,"code":2,"codeName":"BadValue"}
+15/07/2022, 16:58:03 - ERROR - Failed to get toys | {"ok":0,"code":2,"codeName":"BadValue"}
+15/07/2022, 16:58:11 - INFO - Req was made
+15/07/2022, 16:58:11 - DEBUG - Getting Toys
+15/07/2022, 16:58:50 - INFO - Server is running on port: 3030
+15/07/2022, 16:59:18 - INFO - Server is running on port: 3030
+15/07/2022, 17:00:40 - INFO - Server is running on port: 3030
+15/07/2022, 17:00:43 - INFO - Req was made
+15/07/2022, 17:00:43 - DEBUG - Getting Toys
+15/07/2022, 17:00:44 - INFO - Req was made
+15/07/2022, 17:00:44 - DEBUG - Getting Toys
+15/07/2022, 17:00:44 - INFO - Req was made
+15/07/2022, 17:00:44 - DEBUG - Getting Toys
+15/07/2022, 17:00:44 - INFO - Req was made
+15/07/2022, 17:00:44 - DEBUG - Getting Toys
+15/07/2022, 17:00:45 - INFO - Req was made
+15/07/2022, 17:00:45 - DEBUG - Getting Toys
+15/07/2022, 17:00:45 - INFO - Req was made
+15/07/2022, 17:00:45 - DEBUG - Getting Toys
+15/07/2022, 17:00:45 - INFO - Req was made
+15/07/2022, 17:00:45 - DEBUG - Getting Toys
+15/07/2022, 17:00:46 - INFO - Req was made
+15/07/2022, 17:00:46 - DEBUG - Getting Toys
+15/07/2022, 17:00:46 - INFO - Req was made
+15/07/2022, 17:00:46 - DEBUG - Getting Toys
+15/07/2022, 17:00:46 - INFO - Req was made
+15/07/2022, 17:00:46 - DEBUG - Getting Toys
+15/07/2022, 17:00:47 - INFO - Req was made
+15/07/2022, 17:00:47 - DEBUG - Getting Toys
+15/07/2022, 17:00:47 - INFO - Req was made
+15/07/2022, 17:00:47 - DEBUG - Getting Toys
+15/07/2022, 17:00:47 - INFO - Req was made
+15/07/2022, 17:00:47 - DEBUG - Getting Toys
+15/07/2022, 17:01:09 - INFO - Server is running on port: 3030
