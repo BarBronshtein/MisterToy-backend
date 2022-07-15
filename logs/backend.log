@@ -600,3 +600,436 @@
 15/07/2022, 19:03:24 - DEBUG - Getting Toys
 15/07/2022, 19:03:30 - DEBUG - auth.service - login with username: barry
 15/07/2022, 19:03:31 - INFO - User login:  | {"_id":"62d18f40fe2dcda66bfac4fa","username":"barry","fullname":"Barry"}
+15/07/2022, 19:30:12 - INFO - Server is running on port: 3030
+15/07/2022, 19:30:39 - INFO - Req was made
+15/07/2022, 19:30:39 - DEBUG - Getting Toys
+15/07/2022, 20:57:26 - INFO - Req was made
+15/07/2022, 20:57:26 - DEBUG - Getting Toys
+15/07/2022, 20:58:08 - INFO - Req was made
+15/07/2022, 20:58:08 - DEBUG - Getting Toys
+15/07/2022, 21:09:41 - INFO - Req was made
+15/07/2022, 21:09:41 - DEBUG - Getting Toys
+15/07/2022, 21:09:53 - INFO - Req was made
+15/07/2022, 21:09:53 - DEBUG - Getting Toys
+15/07/2022, 21:12:50 - INFO - Req was made
+15/07/2022, 21:12:50 - DEBUG - Getting Toys
+15/07/2022, 21:13:17 - INFO - Req was made
+15/07/2022, 21:13:17 - DEBUG - Getting Toys
+15/07/2022, 21:13:53 - INFO - Req was made
+15/07/2022, 21:13:53 - DEBUG - Getting Toys
+15/07/2022, 21:14:09 - INFO - Req was made
+15/07/2022, 21:14:09 - DEBUG - Getting Toys
+15/07/2022, 21:14:56 - INFO - Req was made
+15/07/2022, 21:14:56 - DEBUG - Getting Toys
+15/07/2022, 21:15:23 - INFO - Req was made
+15/07/2022, 21:15:23 - DEBUG - Getting Toys
+15/07/2022, 21:15:35 - INFO - Req was made
+15/07/2022, 21:15:35 - DEBUG - Getting Toys
+15/07/2022, 21:15:37 - INFO - Req was made
+15/07/2022, 21:15:37 - DEBUG - Getting Toys
+15/07/2022, 21:15:43 - INFO - Req was made
+15/07/2022, 21:15:43 - DEBUG - Getting Toys
+15/07/2022, 21:16:11 - INFO - Req was made
+15/07/2022, 21:16:11 - DEBUG - Getting Toys
+15/07/2022, 21:16:14 - INFO - Req was made
+15/07/2022, 21:16:14 - DEBUG - Getting Toys
+15/07/2022, 21:16:23 - INFO - Req was made
+15/07/2022, 21:16:23 - DEBUG - Getting Toys
+15/07/2022, 21:16:27 - INFO - Req was made
+15/07/2022, 21:16:27 - DEBUG - Getting Toys
+15/07/2022, 21:16:32 - INFO - Req was made
+15/07/2022, 21:16:32 - DEBUG - Getting Toys
+15/07/2022, 21:16:34 - INFO - Req was made
+15/07/2022, 21:16:34 - DEBUG - Getting Toys
+15/07/2022, 21:16:42 - INFO - Req was made
+15/07/2022, 21:16:42 - DEBUG - Getting Toys
+15/07/2022, 21:16:44 - INFO - Req was made
+15/07/2022, 21:16:44 - DEBUG - Getting Toys
+15/07/2022, 21:16:59 - INFO - Req was made
+15/07/2022, 21:16:59 - DEBUG - Getting Toys
+15/07/2022, 21:17:01 - INFO - Req was made
+15/07/2022, 21:17:01 - DEBUG - Getting Toys
+15/07/2022, 21:17:31 - INFO - Req was made
+15/07/2022, 21:17:31 - DEBUG - Getting Toys
+15/07/2022, 21:17:40 - DEBUG - auth.service - login with username: barry
+15/07/2022, 21:17:40 - INFO - User login:  | {"_id":"62d18f40fe2dcda66bfac4fa","username":"barry","fullname":"Barry"}
+15/07/2022, 21:17:56 - INFO - Req was made
+15/07/2022, 21:17:56 - DEBUG - Getting Toys
+15/07/2022, 21:19:25 - INFO - Req was made
+15/07/2022, 21:19:25 - DEBUG - Getting Toys
+15/07/2022, 21:19:30 - INFO - Req was made
+15/07/2022, 21:19:30 - DEBUG - Getting Toys
+15/07/2022, 21:19:49 - INFO - Req was made
+15/07/2022, 21:19:49 - DEBUG - Getting Toys
+15/07/2022, 21:19:51 - INFO - Req was made
+15/07/2022, 21:19:51 - DEBUG - Getting Toys
+15/07/2022, 21:19:52 - INFO - Req was made
+15/07/2022, 21:19:52 - DEBUG - Getting Toys
+15/07/2022, 21:19:55 - INFO - Req was made
+15/07/2022, 21:19:55 - DEBUG - Getting Toys
+15/07/2022, 21:20:01 - DEBUG - auth.service - login with username: barry
+15/07/2022, 21:20:02 - INFO - User login:  | {"_id":"62d18f40fe2dcda66bfac4fa","username":"barry","fullname":"Barry"}
+15/07/2022, 21:20:41 - INFO - Req was made
+15/07/2022, 21:20:41 - DEBUG - Getting Toys
+15/07/2022, 21:20:51 - INFO - Req was made
+15/07/2022, 21:20:51 - DEBUG - Getting Toys
+15/07/2022, 21:21:07 - DEBUG - auth.service - login with username: barry
+15/07/2022, 21:21:07 - INFO - User login:  | {"_id":"62d18f40fe2dcda66bfac4fa","username":"barry","fullname":"Barry"}
+15/07/2022, 21:21:54 - INFO - Req was made
+15/07/2022, 21:21:54 - DEBUG - Getting Toys
+15/07/2022, 21:22:16 - INFO - Req was made
+15/07/2022, 21:22:16 - DEBUG - Getting Toys
+15/07/2022, 21:22:53 - INFO - Req was made
+15/07/2022, 21:22:53 - DEBUG - Getting Toys
+15/07/2022, 21:23:04 - DEBUG - auth.service - login with username: barry
+15/07/2022, 21:23:04 - INFO - User login:  | {"_id":"62d18f40fe2dcda66bfac4fa","username":"barry","fullname":"Barry"}
+15/07/2022, 21:23:18 - INFO - Req was made
+15/07/2022, 21:23:18 - DEBUG - Getting Toys
+15/07/2022, 21:23:25 - DEBUG - auth.service - login with username: barry
+15/07/2022, 21:23:25 - INFO - User login:  | {"_id":"62d18f40fe2dcda66bfac4fa","username":"barry","fullname":"Barry"}
+15/07/2022, 21:23:39 - INFO - Req was made
+15/07/2022, 21:23:39 - DEBUG - Getting Toys
+15/07/2022, 21:24:26 - INFO - Req was made
+15/07/2022, 21:24:26 - DEBUG - Getting Toys
+15/07/2022, 21:24:27 - INFO - Req was made
+15/07/2022, 21:24:27 - DEBUG - Getting Toys
+15/07/2022, 21:24:28 - INFO - Req was made
+15/07/2022, 21:24:28 - DEBUG - Getting Toys
+15/07/2022, 21:24:31 - INFO - Req was made
+15/07/2022, 21:24:31 - DEBUG - Getting Toys
+15/07/2022, 21:24:37 - DEBUG - auth.service - login with username: barry
+15/07/2022, 21:24:37 - INFO - User login:  | {"_id":"62d18f40fe2dcda66bfac4fa","username":"barry","fullname":"Barry"}
+15/07/2022, 21:24:54 - INFO - Req was made
+15/07/2022, 21:24:54 - DEBUG - Getting Toys
+15/07/2022, 21:24:55 - INFO - Req was made
+15/07/2022, 21:24:55 - DEBUG - Getting Toys
+15/07/2022, 21:25:43 - INFO - Server is running on port: 3030
+15/07/2022, 21:25:44 - INFO - Req was made
+15/07/2022, 21:25:44 - DEBUG - Getting Toys
+15/07/2022, 21:25:48 - DEBUG - auth.service - login with username: barry
+15/07/2022, 21:25:48 - INFO - User login:  | {"_id":"62d18f40fe2dcda66bfac4fa","username":"barry","fullname":"Barry"}
+15/07/2022, 21:25:51 - INFO - Req was made
+15/07/2022, 21:25:51 - DEBUG - Getting Toys
+15/07/2022, 21:25:56 - INFO - Req was made
+15/07/2022, 21:25:56 - DEBUG - Getting Toys
+15/07/2022, 21:25:59 - INFO - Req was made
+15/07/2022, 21:25:59 - DEBUG - Getting Toys
+15/07/2022, 21:26:04 - DEBUG - auth.service - login with username: barry
+15/07/2022, 21:26:04 - INFO - User login:  | {"_id":"62d18f40fe2dcda66bfac4fa","username":"barry","fullname":"Barry"}
+15/07/2022, 21:28:32 - INFO - Req was made
+15/07/2022, 21:28:32 - DEBUG - Getting Toys
+15/07/2022, 21:28:35 - INFO - Req was made
+15/07/2022, 21:28:35 - DEBUG - Getting Toys
+15/07/2022, 21:28:41 - DEBUG - auth.service - login with username: barry
+15/07/2022, 21:28:42 - INFO - User login:  | {"_id":"62d18f40fe2dcda66bfac4fa","username":"barry","fullname":"Barry"}
+15/07/2022, 21:28:47 - INFO - Req was made
+15/07/2022, 21:28:47 - DEBUG - Getting Toys
+15/07/2022, 21:28:49 - INFO - Req was made
+15/07/2022, 21:28:49 - DEBUG - Getting Toys
+15/07/2022, 21:28:50 - INFO - Req was made
+15/07/2022, 21:28:50 - DEBUG - Getting Toys
+15/07/2022, 21:29:47 - INFO - Req was made
+15/07/2022, 21:29:47 - DEBUG - Getting Toys
+15/07/2022, 21:29:48 - INFO - Req was made
+15/07/2022, 21:29:48 - DEBUG - Getting Toys
+15/07/2022, 21:29:52 - DEBUG - auth.service - login with username: barry
+15/07/2022, 21:29:53 - INFO - User login:  | {"_id":"62d18f40fe2dcda66bfac4fa","username":"barry","fullname":"Barry"}
+15/07/2022, 21:29:58 - INFO - Req was made
+15/07/2022, 21:29:58 - DEBUG - Getting Toys
+15/07/2022, 21:30:02 - INFO - Req was made
+15/07/2022, 21:30:02 - DEBUG - Getting Toys
+15/07/2022, 21:30:23 - INFO - Req was made
+15/07/2022, 21:30:23 - DEBUG - Getting Toys
+15/07/2022, 21:30:28 - DEBUG - auth.service - login with username: barry
+15/07/2022, 21:30:28 - INFO - User login:  | {"_id":"62d18f40fe2dcda66bfac4fa","username":"barry","fullname":"Barry"}
+15/07/2022, 21:31:11 - INFO - Req was made
+15/07/2022, 21:31:11 - DEBUG - Getting Toys
+15/07/2022, 21:31:17 - INFO - Req was made
+15/07/2022, 21:31:17 - DEBUG - Getting Toys
+15/07/2022, 21:31:35 - INFO - Req was made
+15/07/2022, 21:31:35 - DEBUG - Getting Toys
+15/07/2022, 21:31:42 - INFO - Req was made
+15/07/2022, 21:31:42 - DEBUG - Getting Toys
+15/07/2022, 21:31:44 - INFO - Req was made
+15/07/2022, 21:31:44 - DEBUG - Getting Toys
+15/07/2022, 21:32:19 - INFO - Req was made
+15/07/2022, 21:32:19 - DEBUG - Getting Toys
+15/07/2022, 21:32:25 - INFO - Req was made
+15/07/2022, 21:32:25 - DEBUG - Getting Toys
+15/07/2022, 21:32:29 - DEBUG - auth.service - login with username: barry
+15/07/2022, 21:32:29 - INFO - User login:  | {"_id":"62d18f40fe2dcda66bfac4fa","username":"barry","fullname":"Barry"}
+15/07/2022, 21:32:33 - INFO - Req was made
+15/07/2022, 21:32:33 - DEBUG - Getting Toys
+15/07/2022, 21:32:45 - INFO - Req was made
+15/07/2022, 21:32:45 - DEBUG - Getting Toys
+15/07/2022, 21:32:46 - INFO - Req was made
+15/07/2022, 21:32:46 - DEBUG - Getting Toys
+15/07/2022, 21:35:27 - INFO - Req was made
+15/07/2022, 21:35:27 - DEBUG - Getting Toys
+15/07/2022, 21:35:32 - INFO - Req was made
+15/07/2022, 21:35:32 - DEBUG - Getting Toys
+15/07/2022, 21:35:48 - INFO - Req was made
+15/07/2022, 21:35:48 - DEBUG - Getting Toys
+15/07/2022, 21:36:28 - INFO - Req was made
+15/07/2022, 21:36:28 - DEBUG - Getting Toys
+15/07/2022, 21:36:29 - INFO - Req was made
+15/07/2022, 21:36:29 - DEBUG - Getting Toys
+15/07/2022, 21:36:36 - DEBUG - auth.service - login with username: barry
+15/07/2022, 21:36:36 - INFO - User login:  | {"_id":"62d18f40fe2dcda66bfac4fa","username":"barry","fullname":"Barry"}
+15/07/2022, 21:37:03 - INFO - Req was made
+15/07/2022, 21:37:03 - DEBUG - Getting Toys
+15/07/2022, 21:37:12 - INFO - Req was made
+15/07/2022, 21:37:12 - DEBUG - Getting Toys
+15/07/2022, 21:37:22 - INFO - Req was made
+15/07/2022, 21:37:22 - DEBUG - Getting Toys
+15/07/2022, 21:37:30 - DEBUG - auth.service - login with username: barry
+15/07/2022, 21:37:30 - INFO - User login:  | {"_id":"62d18f40fe2dcda66bfac4fa","username":"barry","fullname":"Barry"}
+15/07/2022, 21:37:36 - INFO - Req was made
+15/07/2022, 21:37:36 - DEBUG - Getting Toys
+15/07/2022, 21:38:21 - INFO - Req was made
+15/07/2022, 21:38:21 - DEBUG - Getting Toys
+15/07/2022, 21:38:27 - INFO - Req was made
+15/07/2022, 21:38:27 - DEBUG - Getting Toys
+15/07/2022, 21:38:33 - DEBUG - auth.service - login with username: barry
+15/07/2022, 21:38:33 - INFO - User login:  | {"_id":"62d18f40fe2dcda66bfac4fa","username":"barry","fullname":"Barry"}
+15/07/2022, 21:39:28 - INFO - Req was made
+15/07/2022, 21:39:28 - DEBUG - Getting Toys
+15/07/2022, 21:40:17 - INFO - Req was made
+15/07/2022, 21:40:17 - DEBUG - Getting Toys
+15/07/2022, 21:41:14 - INFO - Req was made
+15/07/2022, 21:41:15 - DEBUG - Getting Toys
+15/07/2022, 21:41:21 - DEBUG - auth.service - login with username: barry
+15/07/2022, 21:41:21 - INFO - User login:  | {"_id":"62d18f40fe2dcda66bfac4fa","username":"barry","fullname":"Barry"}
+15/07/2022, 21:41:25 - INFO - Req was made
+15/07/2022, 21:41:25 - DEBUG - Getting Toys
+15/07/2022, 21:43:04 - INFO - Req was made
+15/07/2022, 21:43:04 - DEBUG - Getting Toys
+15/07/2022, 21:43:07 - INFO - Req was made
+15/07/2022, 21:43:07 - DEBUG - Getting Toys
+15/07/2022, 21:43:11 - DEBUG - auth.service - login with username: barry
+15/07/2022, 21:43:11 - INFO - User login:  | {"_id":"62d18f40fe2dcda66bfac4fa","username":"barry","fullname":"Barry"}
+15/07/2022, 21:43:46 - INFO - Server is running on port: 3030
+15/07/2022, 21:43:47 - INFO - Req was made
+15/07/2022, 21:43:47 - DEBUG - Getting Toys
+15/07/2022, 21:43:50 - INFO - Req was made
+15/07/2022, 21:43:50 - DEBUG - Getting Toys
+15/07/2022, 21:43:57 - DEBUG - auth.service - login with username: barry
+15/07/2022, 21:43:57 - INFO - User login:  | {"_id":"62d18f40fe2dcda66bfac4fa","username":"barry","fullname":"Barry"}
+15/07/2022, 21:44:04 - INFO - Server is running on port: 3030
+15/07/2022, 21:44:22 - INFO - Req was made
+15/07/2022, 21:44:22 - DEBUG - Getting Toys
+15/07/2022, 21:44:25 - INFO - Req was made
+15/07/2022, 21:44:25 - DEBUG - Getting Toys
+15/07/2022, 21:44:29 - INFO - Req was made
+15/07/2022, 21:44:29 - DEBUG - Getting Toys
+15/07/2022, 21:44:51 - INFO - Req was made
+15/07/2022, 21:44:51 - DEBUG - Getting Toys
+15/07/2022, 21:44:55 - DEBUG - auth.service - login with username: barry
+15/07/2022, 21:44:55 - INFO - User login:  | {"_id":"62d18f40fe2dcda66bfac4fa","username":"barry","fullname":"Barry"}
+15/07/2022, 21:48:22 - INFO - Req was made
+15/07/2022, 21:48:22 - DEBUG - Getting Toys
+15/07/2022, 21:49:05 - INFO - Req was made
+15/07/2022, 21:49:05 - DEBUG - Getting Toys
+15/07/2022, 21:49:10 - INFO - Req was made
+15/07/2022, 21:49:10 - DEBUG - Getting Toys
+15/07/2022, 21:49:15 - DEBUG - auth.service - login with username: barry
+15/07/2022, 21:49:15 - INFO - User login:  | {"_id":"62d18f40fe2dcda66bfac4fa","username":"barry","fullname":"Barry"}
+15/07/2022, 21:49:18 - INFO - Req was made
+15/07/2022, 21:49:18 - DEBUG - Getting Toys
+15/07/2022, 21:49:19 - INFO - Req was made
+15/07/2022, 21:49:19 - DEBUG - Getting Toys
+15/07/2022, 21:49:20 - INFO - Req was made
+15/07/2022, 21:49:20 - DEBUG - Getting Toys
+15/07/2022, 21:49:20 - INFO - Req was made
+15/07/2022, 21:49:20 - DEBUG - Getting Toys
+15/07/2022, 21:49:21 - INFO - Req was made
+15/07/2022, 21:49:21 - DEBUG - Getting Toys
+15/07/2022, 21:49:21 - INFO - Req was made
+15/07/2022, 21:49:21 - DEBUG - Getting Toys
+15/07/2022, 21:49:22 - INFO - Req was made
+15/07/2022, 21:49:22 - DEBUG - Getting Toys
+15/07/2022, 21:49:22 - INFO - Req was made
+15/07/2022, 21:49:22 - DEBUG - Getting Toys
+15/07/2022, 21:49:23 - INFO - Req was made
+15/07/2022, 21:49:23 - DEBUG - Getting Toys
+15/07/2022, 21:56:19 - INFO - Req was made
+15/07/2022, 21:56:19 - DEBUG - Getting Toys
+15/07/2022, 21:56:22 - INFO - Req was made
+15/07/2022, 21:56:22 - DEBUG - Getting Toys
+15/07/2022, 21:56:23 - INFO - Req was made
+15/07/2022, 21:56:23 - DEBUG - Getting Toys
+15/07/2022, 21:56:40 - DEBUG - auth.service - login with username: barry
+15/07/2022, 21:56:40 - INFO - User login:  | {"_id":"62d18f40fe2dcda66bfac4fa","username":"barry","fullname":"Barry"}
+15/07/2022, 21:57:08 - INFO - Req was made
+15/07/2022, 21:57:08 - DEBUG - Getting Toys
+15/07/2022, 21:58:50 - INFO - Req was made
+15/07/2022, 21:58:50 - DEBUG - Getting Toys
+15/07/2022, 21:59:07 - DEBUG - auth.service - signup with username: admin, fullname: admin
+15/07/2022, 21:59:07 - DEBUG - auth.route - new account created: {"username":"admin","password":"$2b$10$rlNXo9GCphMiZxv8xoJFku.2q7.8eZtxwYIKWK2ut5bYxfCOi6gXu","fullname":"admin","_id":"62d1b8fb2ac13c49c984ffd4"}
+15/07/2022, 21:59:07 - DEBUG - auth.service - login with username: admin
+15/07/2022, 21:59:08 - INFO - User login:  | {"_id":"62d1b8fb2ac13c49c984ffd4","username":"admin","fullname":"admin"}
+15/07/2022, 22:12:24 - INFO - Req was made
+15/07/2022, 22:12:24 - DEBUG - Getting Toys
+15/07/2022, 22:20:12 - INFO - Req was made
+15/07/2022, 22:20:12 - DEBUG - Getting Toys
+15/07/2022, 22:38:31 - INFO - Req was made
+15/07/2022, 22:38:31 - DEBUG - Getting Toys
+15/07/2022, 22:38:49 - INFO - Req was made
+15/07/2022, 22:38:49 - DEBUG - Getting Toys
+15/07/2022, 22:38:56 - INFO - Req was made
+15/07/2022, 22:38:56 - DEBUG - Getting Toys
+15/07/2022, 22:38:58 - INFO - Req was made
+15/07/2022, 22:38:58 - DEBUG - Getting Toys
+15/07/2022, 22:39:07 - INFO - Req was made
+15/07/2022, 22:39:07 - DEBUG - Getting Toys
+15/07/2022, 22:39:12 - DEBUG - auth.service - login with username: barry
+15/07/2022, 22:39:12 - INFO - User login:  | {"_id":"62d18f40fe2dcda66bfac4fa","username":"barry","fullname":"Barry"}
+15/07/2022, 22:39:55 - INFO - Req was made
+15/07/2022, 22:39:55 - DEBUG - Getting Toys
+15/07/2022, 22:40:16 - INFO - Req was made
+15/07/2022, 22:40:16 - DEBUG - Getting Toys
+15/07/2022, 22:40:17 - INFO - Req was made
+15/07/2022, 22:40:17 - DEBUG - Getting Toys
+15/07/2022, 22:40:22 - INFO - Req was made
+15/07/2022, 22:40:22 - DEBUG - Getting Toys
+15/07/2022, 22:40:28 - DEBUG - auth.service - login with username: barry
+15/07/2022, 22:40:28 - INFO - User login:  | {"_id":"62d18f40fe2dcda66bfac4fa","username":"barry","fullname":"Barry"}
+15/07/2022, 22:40:36 - INFO - Req was made
+15/07/2022, 22:40:36 - DEBUG - Getting Toys
+15/07/2022, 22:40:42 - INFO - Req was made
+15/07/2022, 22:40:42 - DEBUG - Getting Toys
+15/07/2022, 22:40:44 - INFO - Req was made
+15/07/2022, 22:40:44 - DEBUG - Getting Toys
+15/07/2022, 22:40:45 - INFO - Req was made
+15/07/2022, 22:40:45 - DEBUG - Getting Toys
+15/07/2022, 22:40:48 - INFO - Req was made
+15/07/2022, 22:40:48 - DEBUG - Getting Toys
+15/07/2022, 22:40:52 - DEBUG - auth.service - login with username: barry
+15/07/2022, 22:40:52 - INFO - User login:  | {"_id":"62d18f40fe2dcda66bfac4fa","username":"barry","fullname":"Barry"}
+15/07/2022, 22:41:03 - INFO - Req was made
+15/07/2022, 22:41:03 - DEBUG - Getting Toys
+15/07/2022, 22:41:08 - DEBUG - auth.service - login with username: barry
+15/07/2022, 22:41:09 - INFO - User login:  | {"_id":"62d18f40fe2dcda66bfac4fa","username":"barry","fullname":"Barry"}
+15/07/2022, 22:42:34 - INFO - Req was made
+15/07/2022, 22:42:34 - DEBUG - Getting Toys
+15/07/2022, 22:42:37 - INFO - Req was made
+15/07/2022, 22:42:37 - DEBUG - Getting Toys
+15/07/2022, 22:43:16 - INFO - Req was made
+15/07/2022, 22:43:16 - DEBUG - Getting Toys
+15/07/2022, 22:43:19 - DEBUG - auth.service - login with username: admin
+15/07/2022, 22:43:19 - INFO - User login:  | {"_id":"62d1b8fb2ac13c49c984ffd4","username":"admin","fullname":"admin","isAdmin":true}
+15/07/2022, 22:43:28 - INFO - Req was made
+15/07/2022, 22:43:28 - DEBUG - Getting Toys
+15/07/2022, 22:44:23 - INFO - Req was made
+15/07/2022, 22:44:23 - DEBUG - Getting Toys
+15/07/2022, 23:20:49 - INFO - Server is running on port: 3030
+15/07/2022, 23:20:50 - INFO - Server is running on port: 3030
+15/07/2022, 23:20:57 - INFO - Server is running on port: 3030
+15/07/2022, 23:21:01 - INFO - Server is running on port: 3030
+15/07/2022, 23:21:03 - INFO - Server is running on port: 3030
+15/07/2022, 23:21:41 - INFO - Server is running on port: 3030
+15/07/2022, 23:21:56 - INFO - Server is running on port: 3030
+15/07/2022, 23:22:06 - INFO - Server is running on port: 3030
+15/07/2022, 23:22:10 - INFO - Req was made
+15/07/2022, 23:22:10 - DEBUG - Getting Toys
+15/07/2022, 23:22:47 - INFO - Req was made
+15/07/2022, 23:22:47 - DEBUG - Getting Toys
+15/07/2022, 23:23:28 - INFO - Req was made
+15/07/2022, 23:23:28 - DEBUG - Getting Toys
+15/07/2022, 23:24:06 - INFO - Server is running on port: 3030
+15/07/2022, 23:24:08 - INFO - Req was made
+15/07/2022, 23:24:08 - DEBUG - Getting Toys
+15/07/2022, 23:24:26 - INFO - Server is running on port: 3030
+15/07/2022, 23:24:28 - INFO - Req was made
+15/07/2022, 23:24:28 - DEBUG - Getting Toys
+15/07/2022, 23:24:53 - INFO - Server is running on port: 3030
+15/07/2022, 23:24:55 - INFO - Req was made
+15/07/2022, 23:24:55 - DEBUG - Getting Toys
+15/07/2022, 23:25:12 - INFO - Server is running on port: 3030
+15/07/2022, 23:25:13 - INFO - Req was made
+15/07/2022, 23:25:13 - DEBUG - Getting Toys
+15/07/2022, 23:25:27 - INFO - Server is running on port: 3030
+15/07/2022, 23:27:03 - INFO - Server is running on port: 3030
+15/07/2022, 23:27:18 - INFO - Req was made
+15/07/2022, 23:27:18 - DEBUG - Getting Toys
+15/07/2022, 23:27:23 - DEBUG - auth.service - login with username: admin
+15/07/2022, 23:27:23 - INFO - User login:  | {"_id":"62d1b8fb2ac13c49c984ffd4","username":"admin","fullname":"admin","isAdmin":true}
+15/07/2022, 23:27:41 - INFO - Server is running on port: 3030
+15/07/2022, 23:27:43 - INFO - Req was made
+15/07/2022, 23:27:43 - DEBUG - Getting Toys
+15/07/2022, 23:27:52 - INFO - Server is running on port: 3030
+15/07/2022, 23:27:53 - INFO - Req was made
+15/07/2022, 23:27:53 - DEBUG - Getting Toys
+15/07/2022, 23:27:55 - INFO - Req was made
+15/07/2022, 23:27:55 - DEBUG - Getting Toys
+15/07/2022, 23:28:01 - DEBUG - auth.service - login with username: barry
+15/07/2022, 23:28:01 - INFO - User login:  | {"_id":"62d18f40fe2dcda66bfac4fa","username":"barry","fullname":"Barry"}
+15/07/2022, 23:28:09 - INFO - Server is running on port: 3030
+15/07/2022, 23:34:06 - INFO - Server is running on port: 3030
+15/07/2022, 23:34:08 - INFO - Server is running on port: 3030
+15/07/2022, 23:37:02 - INFO - Server is running on port: 3030
+15/07/2022, 23:37:04 - INFO - Req was made
+15/07/2022, 23:37:04 - DEBUG - Getting Toys
+15/07/2022, 23:37:06 - INFO - Req was made
+15/07/2022, 23:37:06 - DEBUG - Getting Toys
+15/07/2022, 23:37:16 - INFO - Req was made
+15/07/2022, 23:37:16 - DEBUG - Getting Toys
+15/07/2022, 23:37:27 - DEBUG - auth.service - login with username: barry
+15/07/2022, 23:37:27 - INFO - User login:  | {"_id":"62d18f40fe2dcda66bfac4fa","username":"barry","fullname":"Barry"}
+15/07/2022, 23:37:35 - INFO - Req was made
+15/07/2022, 23:37:35 - DEBUG - Getting Toys
+15/07/2022, 23:38:06 - INFO - Req was made
+15/07/2022, 23:38:06 - DEBUG - Getting Toys
+15/07/2022, 23:38:07 - INFO - Req was made
+15/07/2022, 23:38:07 - DEBUG - Getting Toys
+15/07/2022, 23:38:10 - INFO - Req was made
+15/07/2022, 23:38:10 - DEBUG - Getting Toys
+15/07/2022, 23:38:12 - INFO - Req was made
+15/07/2022, 23:38:12 - DEBUG - Getting Toys
+15/07/2022, 23:38:13 - INFO - Req was made
+15/07/2022, 23:38:13 - DEBUG - Getting Toys
+15/07/2022, 23:38:18 - INFO - Req was made
+15/07/2022, 23:38:18 - DEBUG - Getting Toys
+15/07/2022, 23:38:19 - INFO - Req was made
+15/07/2022, 23:38:19 - DEBUG - Getting Toys
+15/07/2022, 23:38:21 - INFO - Req was made
+15/07/2022, 23:38:21 - DEBUG - Getting Toys
+15/07/2022, 23:38:22 - INFO - Req was made
+15/07/2022, 23:38:22 - DEBUG - Getting Toys
+15/07/2022, 23:38:24 - INFO - Req was made
+15/07/2022, 23:38:24 - DEBUG - Getting Toys
+15/07/2022, 23:38:25 - INFO - Req was made
+15/07/2022, 23:38:25 - DEBUG - Getting Toys
+15/07/2022, 23:38:31 - INFO - Req was made
+15/07/2022, 23:38:31 - DEBUG - Getting Toys
+15/07/2022, 23:39:44 - INFO - Req was made
+15/07/2022, 23:39:44 - DEBUG - Getting Toys
+15/07/2022, 23:40:55 - INFO - Req was made
+15/07/2022, 23:40:55 - DEBUG - Getting Toys
+15/07/2022, 23:41:05 - INFO - Req was made
+15/07/2022, 23:41:05 - DEBUG - Getting Toys
+15/07/2022, 23:41:24 - INFO - Req was made
+15/07/2022, 23:41:24 - DEBUG - Getting Toys
+15/07/2022, 23:41:26 - INFO - Req was made
+15/07/2022, 23:41:26 - DEBUG - Getting Toys
+15/07/2022, 23:41:31 - DEBUG - auth.service - login with username: admin
+15/07/2022, 23:41:31 - INFO - User login:  | {"_id":"62d1b8fb2ac13c49c984ffd4","username":"admin","fullname":"admin","isAdmin":true}
+15/07/2022, 23:42:20 - INFO - Server is running on port: 3030
+15/07/2022, 23:46:00 - INFO - Req was made
+15/07/2022, 23:46:00 - DEBUG - Getting Toys
+15/07/2022, 23:46:03 - INFO - Req was made
+15/07/2022, 23:46:04 - DEBUG - Getting Toys
+15/07/2022, 23:46:07 - DEBUG - auth.service - login with username: barry
+15/07/2022, 23:46:07 - INFO - User login:  | {"_id":"62d18f40fe2dcda66bfac4fa","username":"barry","fullname":"Barry"}
+15/07/2022, 23:46:20 - INFO - Req was made
+15/07/2022, 23:46:20 - DEBUG - Getting Toys
+15/07/2022, 23:46:23 - DEBUG - auth.service - login with username: admin
+15/07/2022, 23:46:23 - INFO - User login:  | {"_id":"62d1b8fb2ac13c49c984ffd4","username":"admin","fullname":"admin","isAdmin":true}
+15/07/2022, 23:46:51 - INFO - Req was made
+15/07/2022, 23:46:51 - DEBUG - Getting Toys
+15/07/2022, 23:48:17 - INFO - Req was made
+15/07/2022, 23:48:17 - DEBUG - Getting Toys
+15/07/2022, 23:49:26 - INFO - Req was made
+15/07/2022, 23:49:26 - DEBUG - Getting Toys
+15/07/2022, 23:49:46 - INFO - Req was made
+15/07/2022, 23:49:46 - DEBUG - Getting Toys

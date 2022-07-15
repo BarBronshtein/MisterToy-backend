@@ -6,6 +6,7 @@ async function requireAuth(req, res, next) {
     return res.status(401).send('Not Authernticated');
   }
   const loggedinUser = authService.validateToken(req.cookies.loginToken);
+
   if (!loggedinUser) return res.status(401).send('Not Authenticated');
   next();
 }
