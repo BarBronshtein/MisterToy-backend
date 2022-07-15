@@ -25,8 +25,8 @@ async function signup(username, password, fullname) {
   logger.debug(
     `auth.service - signup with username: ${username}, fullname: ${fullname}`
   );
-  if (!username || !password || !fullname)
-    throw new Error('fullname, username and password are required!');
+  // if (!username || !password || !fullname) // front handles field requirements
+  //   throw new Error('fullname, username and password are required!');
 
   const hash = await bcrypt.hash(password, saltRounds);
   return userService.add({ username, password: hash, fullname });

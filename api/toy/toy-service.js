@@ -1,21 +1,19 @@
 const dbService = require('../../services/db-service');
 const logger = require('../../services/logger-service');
 const ObjectId = require('mongodb').ObjectId;
-
 async function query(filterBy) {
   try {
     let toys;
     const sortBy = JSON.parse(filterBy.sortBy);
-    const criteria = _buildCriteria(filterBy, sortBy);
+    const criteria = _buildCriteria(filterBy);
     const collection = await dbService.getCollection('toy');
     if (sortBy.status) {
       toys = await collection
         .find(criteria)
         .sort({ [sortBy.status]: sortBy.state })
-        .toArray()
-        .limit(4);
+        .toArray();
     } else {
-      toys = await collection.find(criteria).toArray().limit(4);
+      toys = await collection.find(criteria).toArray();
     }
     return toys;
   } catch (err) {
