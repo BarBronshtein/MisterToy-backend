@@ -18,10 +18,7 @@ async function query(filterBy = {}) {
     var users = await collection.find(criteria).toArray();
     users = users.map(user => {
       delete user.password;
-      user.isHappy = true;
       user.createdAt = ObjectId(user._id).getTimestamp();
-      // Returning fake fresh data
-      // user.createdAt = Date.now() - (1000 * 60 * 60 * 24 * 3) // 3 days ago
       return user;
     });
     return users;
@@ -67,13 +64,16 @@ async function update(user) {
   try {
     // peek only updatable fields!
     const userToSave = {
-      // _id: ObjectId(user._id),
       username: user.username,
       fullname: user.fullname,
-      score: user.score,
+      // TODO:add ability to edit password aswell
     };
     const collection = await dbService.getCollection('user');
-    await collection.updateOne({ _id: userToSave._id }, { $set: userToSave });
+    await collection.updateOne(
+      { _id: ObjectId(user._id) },
+      { $set: userToSave }
+    );
+    userToSave._id = ObjectId(user._id);
     return userToSave;
   } catch (err) {
     logger.error(`cannot update user ${user._id}`, err);

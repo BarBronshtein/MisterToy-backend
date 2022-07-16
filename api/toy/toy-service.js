@@ -49,9 +49,7 @@ async function add(toy) {
     // Todo remove _id in the front
     delete toy._id;
     const collection = await dbService.getCollection('toy');
-    const { insertedId } = await collection.insertOne(toy);
-    // Maybe toy id will return an object and not a string id
-    toy._id = insertedId;
+    await collection.insertOne(toy);
     return toy;
   } catch (err) {
     logger.error('cannot insert toy', err);
