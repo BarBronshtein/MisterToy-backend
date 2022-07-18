@@ -1,7 +1,7 @@
 const logger = require('./logger-service');
 
-let gIo = null;
-
+var gIo = null;
+const msgsMap = {};
 function setupSocketAPI(http) {
   gIo = require('socket.io')(http, {
     cors: {
@@ -24,10 +24,12 @@ function setupSocketAPI(http) {
       socket.join(topic);
       socket.myTopic = topic;
     });
+
     socket.on('chat-send-msg', msg => {
       logger.info(
         `New chat msg from socket [id: ${socket.id}], emitting to topic ${socket.myTopic}`
       );
+
       // emits to all sockets:
       // gIo.emit('chat addMsg', msg)
       // emits only to sockets in the same room
@@ -44,6 +46,11 @@ function setupSocketAPI(http) {
         `Setting socket.userId = ${userId} for socket [id: ${socket.id}]`
       );
       socket.userId = userId;
+    });
+    socket.on('chat-set-typing', userTyping => {
+      logger.info(`Setting user typing to ${userTyping}`);
+      socket.userTyping = userTyping;
+      gIo.to(socket.myTopic).emit('chat-send-typing', userTyping);
     });
     socket.on('unset-user-socket', () => {
       logger.info(`Removing socket.userId for socket [id: ${socket.id}]`);

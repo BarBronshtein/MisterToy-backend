@@ -2,19 +2,17 @@ const express = require('express');
 const cookieParser = require('cookie-parser');
 const cors = require('cors');
 const path = require('path');
+const app = express();
+const http = require('http').createServer(app);
 
 const MAP_KEY =
   process.env === 'production'
     ? process.env.MAP_KEY
     : 'AIzaSyAl-v0FWCCcT0o6UrjDE17w4NIVtAa9AAI';
 
-const app = express();
-const http = require('http').createServer(app);
-
 // Express App Config
 app.use(cookieParser());
 app.use(express.json());
-// app.use(express.static('public'));
 
 if (process.env.NODE_ENV === 'production') {
   // Express serve static files on production environment
@@ -37,15 +35,18 @@ if (process.env.NODE_ENV === 'production') {
 const authRoutes = require('./api/auth/auth-routes');
 const userRoutes = require('./api/user/user-route');
 const toyRoutes = require('./api/toy/toy-routes');
-const { setupSocketAPI } = require('./services/socket.services');
+const reviewRoutes = require('./api/review/review-routes');
+const { setupSocketAPI } = require('./services/socket-service');
 
 // routes
-const setupAsyncLocalStorage = require('./middlewares/setupAls.middleware');
+const setupAsyncLocalStorage = require('./middlewares/setupAls-middleware');
 app.all('*', setupAsyncLocalStorage);
 
 app.use('/api/auth', authRoutes);
 app.use('/api/user', userRoutes);
 app.use('/api/toy', toyRoutes);
+app.use('/api/review', reviewRoutes);
+setupSocketAPI(http);
 
 // Make every server-side-route to match the index.html
 // so when requesting http://localhost:3030/index.html/toy/123 it will still respond with

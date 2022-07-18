@@ -17,10 +17,10 @@ async function getReviews(req, res) {
 async function deleteReview(req, res) {
   try {
     const deletedCount = await reviewService.remove(req.params.id);
-    if (deletedCount === 1) {
-      res.send({ msg: 'Deleted successfully' });
-    } else {
+    if (!deletedCount) {
       res.status(400).send({ err: 'Cannot remove review' });
+    } else {
+      res.send({ msg: 'Deleted successfully' });
     }
   } catch (err) {
     logger.error('Failed to delete review', err);
@@ -30,14 +30,13 @@ async function deleteReview(req, res) {
 
 async function addReview(req, res) {
   let loggedinUser = authService.validateToken(req.cookies.loginToken);
-
   try {
     let review = req.body;
     review.byUserId = loggedinUser._id;
     review = await reviewService.add(review);
 
     // prepare the updated review for sending out
-    review.aboutUser = await userService.getById(review.aboutUserId);
+    review.byUser = await userService.getById(review.byUserId);
 
     loggedinUser = await userService.update(loggedinUser);
     review.byUser = loggedinUser;

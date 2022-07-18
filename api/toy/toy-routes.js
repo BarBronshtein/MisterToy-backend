@@ -10,7 +10,6 @@ const {
   addToy,
   updateToy,
   removeToy,
-  addReview,
 } = require('./toy-controller');
 const router = express.Router();
 
