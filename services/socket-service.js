@@ -1,7 +1,7 @@
 const logger = require('./logger-service');
 
 var gIo = null;
-const msgsMap = {};
+const gMsgMap = {};
 function setupSocketAPI(http) {
   gIo = require('socket.io')(http, {
     cors: {
@@ -14,6 +14,7 @@ function setupSocketAPI(http) {
       logger.info(`Socket disconnected [id: ${socket.id}]`);
     });
     socket.on('chat-set-topic', topic => {
+      gIo.to(socket.myTopic)?.emit('chat-msg-history', gMsgMap[socket.myTopic]);
       if (socket.myTopic === topic) return;
       if (socket.myTopic) {
         socket.leave(socket.myTopic);
@@ -29,10 +30,15 @@ function setupSocketAPI(http) {
       logger.info(
         `New chat msg from socket [id: ${socket.id}], emitting to topic ${socket.myTopic}`
       );
-
+      if (gMsgMap[socket.myTopic])
+        gMsgMap[socket.myTopic] = [...gMsgMap[socket.myTopic], msg];
+      else {
+        gMsgMap[socket.myTopic] = [msg];
+      }
       // emits to all sockets:
-      // gIo.emit('chat addMsg', msg)
+      // gIo.emit('chat addMsg', msg);
       // emits only to sockets in the same room
+
       gIo.to(socket.myTopic).emit('chat-add-msg', msg);
     });
     socket.on('user-watch', userId => {
@@ -49,8 +55,7 @@ function setupSocketAPI(http) {
     });
     socket.on('chat-set-typing', userTyping => {
       logger.info(`Setting user typing to ${userTyping}`);
-      socket.userTyping = userTyping;
-      gIo.to(socket.myTopic).emit('chat-send-typing', userTyping);
+      socket.broadcast.emit('chat-send-typing', userTyping);
     });
     socket.on('unset-user-socket', () => {
       logger.info(`Removing socket.userId for socket [id: ${socket.id}]`);
@@ -83,6 +88,7 @@ async function emitToUser({ type, data, userId }) {
 async function broadcast({ type, data, room = null, userId }) {
   logger.info(`Broadcasting event: ${type}`);
   const excludedSocket = await _getUserSocket(userId);
+  console.log(excludedSocket);
   if (room && excludedSocket) {
     logger.info(`Broadcast to room ${room} excluding user: ${userId}`);
     excludedSocket.broadcast.to(room).emit(type, data);
